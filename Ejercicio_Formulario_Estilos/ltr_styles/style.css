@@ -1,0 +1,24 @@
+
+h1{
+    color: rgba(0, 0, 255, 0.253);
+    padding-left: 120px;
+}
+
+div{
+    margin: 10px;
+    margin-right: 1000px;
+    padding: 20px;
+    border-width: 5px 0;
+    border-style: solid;
+    border-color: rgb(2, 10, 128);
+    background-color: rgb(185, 226, 251);
+}
+
+input:focus{
+    padding: 4px;
+    background-color: rgba(253, 253, 85, 0.904);      
+}
+
+label{
+    padding: 3px;
+}
