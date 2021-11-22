@@ -1,0 +1,31 @@
+html{
+    background-color: rgba(216, 215, 215, 0.705);
+}
+h1{
+    text-align: center;
+}
+p{
+    width: 600px;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 250px;
+}
+ img{
+     width: 19%;
+     position: absolute;
+     top: 115px;
+     left: 890px;
+ }
+ a{
+     background-color: rgba(255, 127, 80, 0.746);
+     padding: 5px 7px;
+     
+     border: 2px solid;
+     border-radius: 5%;
+     text-decoration: none;
+     color: black;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+ }
+ 
