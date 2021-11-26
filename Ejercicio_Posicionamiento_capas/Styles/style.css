@@ -1,0 +1,29 @@
+div{
+    position: absolute;
+}
+
+div p{
+    background-color: aqua;
+    border: 2px solid;
+    border-color:#793FA2;
+    width: 100px;
+    height: 100px;
+    padding-left: 2px;  
+}
+
+
+#d1{
+    left: 150px;
+}
+
+.d2 { 
+    left: 300px;
+}
+
+#d2{
+    left: 450px;
+}
+
+.d3{
+    left: 600px;
+}
