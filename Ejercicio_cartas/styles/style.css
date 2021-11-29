@@ -1,0 +1,63 @@
+html{
+    background-image: url(../img/tapete.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 300px;
+    width: 190px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgb(240, 240, 212);
+    position: absolute;
+}
+.mano{
+    width: 30%;
+    position: relative;
+    top: 530px;
+    left: 640px;
+    z-index: 12;
+    transform: rotateZ(+10deg);
+}
+
+.rombos{
+    left: 500px;
+    top: 330px;
+    color: red;
+    z-index: 1;
+    transform: rotateZ(-30deg);
+
+}
+
+.treboles{
+    left: 532px;
+    top: 334px;
+    z-index: 2;
+    transform: rotateZ(-20deg);
+}
+
+.corazones{
+    left: 562px;
+    top: 344px;
+    color: red;
+    z-index: 3;
+    transform: rotateZ(-10deg);
+}
+
+
+.picas{
+    left: 590px;
+    top: 359px;
+    z-index: 4;  
+
+}
+
+.rombos-delantero{
+    left: 615px;
+    top: 378px;
+    color: red;
+    z-index: 5;
+    transform: rotateZ(+10deg);
+}
