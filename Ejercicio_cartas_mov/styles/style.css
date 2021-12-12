@@ -1,0 +1,196 @@
+html{
+    background-image: url(../img/mesa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carta{
+    position: absolute;
+    height: 350px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: beige;
+    top: 200px;
+    left: 550px;
+}
+.numero{
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.numeroinv{
+    font-size: 24px;
+    margin-left: 5px;
+    transform: rotate(180deg);
+    margin-right: 5px;
+    position: relative;
+    top: 270px;
+}
+
+.paloinv{
+    font-size: 24px;
+    transform: rotate(180deg);
+    margin-right: 5px;
+    position: relative;
+    top: 220px;
+}
+
+.figuras{
+    position: absolute;
+    font-size: 80px;   
+}
+
+.cuatropicas{
+    z-index: 2;
+    animation-name: desplazamientocuatro;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplazamientocuatro{
+    0% {left: -200px}
+    60% {top: 201px; left: 617px;}
+    100% {top: 202px; left: 617px; transform: rotate(-20deg);}
+    
+}
+
+#picasuno{  
+    left:25px;
+    top: 50px;
+}
+
+#picasdos{
+    left: 140px;
+    top: 50px;
+}
+
+#picastres{
+    left: 25px;
+    top: 200px;
+    transform: rotate(180deg);
+}
+
+#picascuatro{
+    left: 140px;
+    top: 200px;
+    transform: rotate(180deg);
+}
+
+.sietetreboles{
+    z-index: 4;
+
+    animation-name: desplazamientosiete;
+    animation-duration: 32s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplazamientosiete{
+    0% {left: -500px}
+    60% {top: 270px; left: 728px;}
+    100% {top: 270px; left: 728px; transform: rotate(20deg);}
+}
+
+#treboluno{  
+    left:25px;
+    top: 20px;
+}
+
+#treboldos{
+    left: 140px;
+    top: 20px;
+}
+
+#treboltres{
+    left: 82px;
+    top: 80px;
+}
+
+#trebolcuatro{
+    left: 25px;
+    top: 140px;
+}
+
+#trebolcinco{
+    left: 140px;
+    top: 140px;
+}
+
+#trebolseis{
+    left: 25px;
+    top: 240px;
+    transform: rotate(180deg);
+}
+
+#trebolsiete{
+    left: 140px;
+    top: 240px;
+    transform: rotate(180deg);
+}
+.seiscorazones{
+    color: red;
+    z-index: 3;
+    animation-name: desplazamientoseis;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes desplazamientoseis{
+    0% {left: -300px}
+    60% {top: 226px; left: 677px;}
+    100% {top: 226px; left: 677px; transform: rotate(0deg);}
+}
+
+#corazonuno{
+    left:25px;
+    top: 20px;
+}
+
+#corazondos{
+    left: 140px;
+    top: 20px;
+}
+
+#corazontres{
+    left:25px;
+    top: 130px;
+}
+
+#corazoncuatro{
+    left: 140px;
+    top: 130px;
+}
+
+#corazoncinco{
+    left: 25px;
+    top: 240px;
+    transform: rotate(180deg);
+}
+
+#corazonseis{
+    left: 140px;
+    top: 240px;
+    transform: rotate(180deg);
+}
+
+.asdiamantes{
+    color: red;
+    z-index: 1;
+    animation-name: desplazamientoas;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplazamientoas{
+    0% {left: -100px}
+    60% {top: 200px; left: 550px;}
+    100% {transform: rotate(-40deg);}
+
+}
+
+#diamanteuno{
+    font-size: 200px;
+    left: 50px;
+    top: 60px;
+}
