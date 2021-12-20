@@ -1,0 +1,339 @@
+html{
+    background-image: url(../img/cabana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    #safari { display: block; } 
+  } 
+
+.arbol{
+    width: 22%;
+    position: absolute;
+    top: 240px;
+    left: 160px;
+    z-index: 1;
+}
+.regalosarbol{
+    position: absolute;
+    width: 15%;
+    z-index: 3;
+    top: 580px;
+    left: 250px;
+}
+.papanoel{
+    width: 20%;
+    position: absolute;
+    animation-name: papanoelmov;
+    animation-delay: s;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+
+@keyframes papanoelmov {
+    0% {left: 750px; top: 190px;}
+    50% {left: 500px; top: 130px;}
+    95% {left: -50px; top: 80px; }
+    100% {left: -300px; top: 70px;}
+}
+
+.muro{
+    position: absolute;
+    top: 116px;
+    left: 262px;
+    z-index: 3;
+}   
+
+.regalo1{
+    position: absolute;
+    width: 4%;
+    left: -100px;
+    transform: rotate(-20deg);
+    animation-name: regalo1;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes regalo1 {
+    0%{ left: 750px; top: 200px;}
+    100% {left: 700px; top: 520px;width: 7%;}
+}
+
+.regalo2{
+    position: absolute;
+    left: -100px;
+    width: 10%;
+    z-index: 1;
+    transform: rotate(10deg);
+    animation-name: regalo2;
+    animation-delay: 9s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes regalo2 {
+    0%{ left: 150px; top: 150px;}
+    100% {left: 60px; top: 350px;width: 8%;}
+}
+
+.bola{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    z-index: 3;
+}
+.b1{
+    background-color: rgb(200, 0, 0);
+    left: 270px;
+    top: 530px;
+    animation-name: bola1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes bola1 {
+    0% {background-color: rgb(200, 0, 0);}
+    50%{background-color: rgb(228, 140, 82);}
+    100%{background-color: rgb(197, 169, 10);}
+}
+
+.b2{
+    background-color: rgb(197, 169, 10);
+    left: 350px;
+    top: 400px;
+    animation-name: bola2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola2 {
+    0% {background-color: rgb(197, 169, 10);}
+    50%{background-color: rgb(0, 193, 200);}
+    100%{background-color: rgb(185, 138, 238);}
+}
+
+.b3{
+    background-color: rgb(0, 103, 200);
+    left: 420px;
+    top: 570px;
+    animation-name: bola3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola3 {
+    0% {background-color: rgb(0, 103, 200);}
+    50%{background-color: rgb(221, 53, 171);}
+    100%{background-color: rgb(200, 80, 0);}
+}
+
+.b4{
+    background-color: rgb(125, 197, 10);
+    left: 300px;
+    top: 450px;
+    animation-name: bola4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola4 {
+    0% {background-color: rgb(125, 197, 10);}
+    50%{background-color: rgb(197, 169, 10);}
+    100%{background-color: rgb(0, 193, 200);}
+}
+
+.b5{
+    background-color: rgb(185, 138, 238);
+    left: 360px;
+    top: 515px;
+    animation-name: bola5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola5 {
+    0% {background-color: rgb(185, 138, 238);}
+    50%{background-color: rgb(125, 197, 10);}
+    100%{background-color: rgb(200, 0, 0);}
+}
+
+.b6{
+    background-color: rgb(0, 193, 200);
+    left: 350px;
+    top: 400px;
+    animation-name: bola6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes bola6 {
+    0% {background-color: rgb(0, 193, 200);}
+    50%{background-color: rgb(228, 140, 82);}
+    100%{background-color: rgb(197, 169, 10);}
+}
+
+.b7{
+    background-color: rgb(200, 80, 0);
+    left: 285px;
+    top: 360px;
+    animation-name: bola7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola7 {
+    0% {background-color: rgb(200, 80, 0);}
+    50%{background-color: rgb(125, 197, 10);}
+    100%{background-color: rgb(185, 138, 238);}
+}
+
+.b8{
+    background-color: rgb(197, 169, 10);
+    left: 315px;
+    top: 300px;
+    animation-name: bola8;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola8 {
+    0% {background-color: rgb(197, 169, 10);}
+    50%{background-color: rgb(200, 0, 0);}
+    100%{background-color:  rgb(185, 138, 238);}
+}
+
+.b9{
+    background-color: rgb(221, 53, 171);
+    left: 320px;
+    top: 562px;
+    animation-name: bola9;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes bola9 {
+    0% {background-color: rgb(221, 53, 171);}
+    50%{background-color: rgb(0, 193, 200);}
+    100%{background-color: rgb(200, 80, 0);}
+}
+
+.b10{
+    background-color: rgb(228, 140, 82);
+    left: 210px;
+    top: 580px;
+    animation-name: bola10;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola10 {
+    0% {background-color: rgb(228, 140, 82);}
+    50%{background-color: rgb(185, 138, 238);}
+    100%{background-color: rgb(221, 53, 171);}
+}
+
+.nieve{
+    width: 1%;
+    position: absolute;
+    z-index: 1;
+    left: -100px;
+}
+.copo1{
+    animation-name: copo1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes copo1 {
+    0% {top: 123px; left:500px}
+    100% {top: 500px; left: 605px; opacity: 40%;}
+}
+
+.copo2{
+    animation-name: copo2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;   
+}
+
+@keyframes copo2 {
+    0% {top: 0px; left:120px}
+    100% {top: 500px; left: 160px; opacity: 40%;}
+}
+
+.copo3{
+    animation-name: copo3;
+    animation-duration: 6s;
+    
+    animation-iteration-count: infinite;
+}
+
+@keyframes copo3 {
+    0% {top: 123px; left:850px}
+    100% {top: 540px; left: 805px; opacity: 40%;}
+}
+
+.copo4{
+    animation-name: copo4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes copo4 {
+    0% {top: 10px; left:20px}
+    100% {top: 700px; left: 75px; opacity: 40%;}
+}
+
+.copo5{
+    animation-name: copo5;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes copo5 {
+    0% {top: 123px; left:610px}
+    100% {top: 500px; left: 700px; opacity: 40%;}
+}
+
+.copo6{
+    animation-name: copo6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes copo6 {
+    0% {top: 123px; left:430px}
+    100% {top: 420px; left: 460px; opacity: 40%;}
+}
+
+.copo7{
+animation-name: copo7;
+animation-duration: 6s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes copo7{
+0% {top: 123px; left:900px}
+100% {top: 500px; left: 880px; opacity: 40%;}
+}
+
+.copo8{
+animation-name: copo8;
+animation-duration: 6s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes copo8{
+0% {top: 123px; left:650px}
+100% {top: 500px; left: 655px; opacity: 40%;}
+}
